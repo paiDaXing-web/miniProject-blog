@@ -1,5 +1,5 @@
 <cu-custom bgColor="se">
-	<view slot="content">世树前端</view>
+	<view slot="content">优加求职实习助手</view>
 </cu-custom>
 <view class="main">
 	<view class="servic_top">

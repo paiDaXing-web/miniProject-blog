@@ -3,6 +3,5 @@
 	<view slot="content">团队介绍</view>
 </cu-custom>
 <view class="main">
-
-<image mode="widthFix" src="cloud://treeworld-2g5yvz9s899bf4a6.7472-treeworld-2g5yvz9s899bf4a6-1259429368/未命名.jpg"></image>
+<image mode="widthFix" src="{{GroupInstruction_url}}"></image>
 </view>

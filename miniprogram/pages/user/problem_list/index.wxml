@@ -1,6 +1,6 @@
 
 <cu-custom bgColor="se"  isBack="{{true}}">
-	<view slot="content">世树前端</view>
+	<view slot="content">UU面试</view>
 </cu-custom>
 <view class="main">
 	<view class="pro_list" data-id="{{items.press_id}}" data-limt="{{index}}" wx:for="{{xw_list}}" wx:key="this"

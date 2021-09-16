@@ -1,6 +1,7 @@
 //app.js
 var util = require("/utils/time.js");
 App({
+
   onLaunch: function () {
     if (wx.cloud) {
       wx.cloud.init({
@@ -115,5 +116,7 @@ App({
     requestUrl: {
       weather: "https://free-api.heweather.com/s6/weather",
     },
+    // 团队自我介绍页url
+    group_imageurl:"https://6d78-mxm1923893223-ulteh-1302287111.tcb.qcloud.la/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/IMG_6687.JPG?sign=ccbc9a87ebb3e26c38e64df2d326b233&t=1631797095"
   },
 });

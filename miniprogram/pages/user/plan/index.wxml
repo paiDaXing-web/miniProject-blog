@@ -1,6 +1,6 @@
 <!--pages/signin/signin.wxml-->
 <cu-custom bgColor="se"  isBack="{{true}}">
-	<view slot="content">世树前端</view>
+	<view slot="content">UU计划</view>
 </cu-custom>
 
 <view class="main" >

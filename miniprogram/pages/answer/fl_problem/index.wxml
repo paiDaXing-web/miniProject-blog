@@ -1,12 +1,12 @@
 <cu-custom bgColor="se"  isBack="{{true}}">
-	<view slot="content">世树前端</view>
+	<view slot="content">优加练习</view>
 </cu-custom>
 <view class="main">
 	<view class="servic_top">
 		<view class="servic_top_Dl">
 			<view>
 			<view class="servic_top_Wz1">面试真题</view>
-			<view class="servic_top_Wz2">为编程而编程，为进步而进步</view>
+			<view class="servic_top_Wz2">最全面试题，正在热更中</view>
 		</view>
 		<view class="servic_top_Img">
 			<image src="../../../images/zx_top.png"></image>
@@ -15,7 +15,7 @@
 
 		<view  class="servic_top_Dl">
 			<view >
-				<view  class="servic_top_tw">{{   pro_length}}</view>
+				<view  class="servic_top_tw">{{pro_length}}</view>
 				<view class="servic_top_tw2">题库总题数</view>
 			</view>
 			<view>

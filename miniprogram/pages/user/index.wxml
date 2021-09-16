@@ -35,7 +35,7 @@
 			</view>
 			<view class="info-box">
 				<text class="username">{{nickName||'游客'}}</text>
-				<view class="username2">世友 Lv1</view>
+				<view class="username2">世友 Lv5</view>
 			</view>
 
 			<view class="bd_user" wx:if="{{!userin.gitee_token}}" bindtap="tz" data-a="user/gitee_login/index">绑定码云</view>
@@ -58,8 +58,8 @@
 		</view>
 		<view class="vip-card-box">
 			<view class="b-btn" bindtap="tz" data-a="user/sign/index">立刻签到</view>
-			<view class="tit"><text class="yticon icon-iLinkapp-"></text>您已签到{{userin.sign||0}}天</view><text class="e-m">世树前端联盟
-			</text><text class="e-b">为美好世界而编程</text>
+			<view class="tit"><text class="yticon icon-iLinkapp-"></text>您已签到{{userin.sign||0}}天</view><text class="e-m">UU求职实习知识分享
+			</text><text class="e-b">为美好世界而学习</text>
 		</view>
 	</view>
 
@@ -68,7 +68,7 @@
 		bindtouchstart="coverTouchstart" bindtouchmove="coverTouchmove" bindtouchend="coverTouchend">
 		<view class="min_height cu-bar">
 			<view class="action sub-title">
-				<text class="text-xl text-bold text-tree">世树助手</text>
+				<text class="text-xl text-bold text-tree">UU助手</text>
 				<text class="text-ABC text-tree">Boutique </text>
 			</view>
 		</view>
@@ -89,7 +89,7 @@
 			<view class="cu-item arrow">
 				<navigator class="content" url="/pages/user/aboutus/index" hover-class="none">
 					<text class="cuIcon-evaluate  text-tree"></text>
-					<text class="text-grey">关于世树</text>
+					<text class="text-grey">关于UU</text>
 				</navigator>
 			</view>
 

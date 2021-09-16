@@ -6,7 +6,7 @@
 			</navigator>
 		</view>
 		<view class="content" style="top:{{StatusBar}}px;{{('opacity:'+(1- popr)+';')}}" wx:if="{{popr<0.5}}">
-			世树前端
+		UU前端
 		</view>
 		<view class="content"
 			style="top:{{StatusBar}}px;width: calc(100% - 340rpx);margin-left: 40px; {{('opacity:'+  popr+';')}}">
@@ -62,7 +62,7 @@
 		</view>
 		<view class="nav-list-right">
 			<navigator hover-class='none' url="/pages/home/book/index" class="nav-li bg-cyan bg_kl2">
-				<view class="nav-title">大牛书籍</view>
+				<view class="nav-title">免费书籍</view>
 				<view class="nav-name">
 					天生我材必有用
 				</view>
@@ -92,6 +92,9 @@
 		<list list="{{xw_list}}"></list>
 	</view>
 	<van-divider contentPosition="center">到底啦，更多数据请跳转学习模块</van-divider>
+	<van-divider contentPosition="center" fontSize="10">
+  字体大小
+</van-divider>
 
 </view>
 <wxs module="m1">

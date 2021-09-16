@@ -4,7 +4,7 @@
 	<view class='page-cont' wx:if="{{isTiptrue}}">
 		<view class='top'>
 			<image src='../../images/jt.png'></image>
-			<view class='p_one'>添加前端联盟，编程无忧</view>
+			<view class='p_one'>添加UU求职助手，求职实习无忧</view>
 		</view>
 		<view class='cont'>
 			<view class='cont-p'>
@@ -22,13 +22,13 @@
 			</view>
 			<view class='cont-p-lib'>
 				<view class='text' style='opacity:0;'><text>3</text></view>
-				<view>从“我的小程序”里打开“世树_前端联盟”</view>
+				<view>从“我的小程序”里打开“优加实习”</view>
 			</view>
 			<view class='cont-p-three'>
 				<view class='right'>
 					<view class='left-p'>
 						<view class='title'>我的小程序</view>
-						世树_前端联盟
+						优加实习
 					</view>
 					<view class='left-p'>
 						<view class='title' style='opacity:0;'>我的小程序</view>

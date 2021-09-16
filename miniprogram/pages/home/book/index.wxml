@@ -1,5 +1,5 @@
 <cu-custom bgColor="bg-gradual-tree" isBack="{{true}}">
-	<view slot="content">世树书库</view>
+	<view slot="content">UU免费电子书库</view>
 </cu-custom>
 <view class="content2">
 	<van-notice-bar

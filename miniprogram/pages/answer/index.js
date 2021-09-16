@@ -35,6 +35,11 @@ Component({
       })
     },
     post() {
+      db.collection('interview').count().then(res => {
+        this.setData({
+          pro_length: res.total,
+        })
+      })
       task.Tree_get(api.GET_press_ms).then(res => {
         this.setData({
           wz_list: res,
