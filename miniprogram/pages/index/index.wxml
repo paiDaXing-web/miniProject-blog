@@ -28,12 +28,11 @@
 				<view class='right'>
 					<view class='left-p'>
 						<view class='title'>我的小程序</view>
-					世树_前端联盟
+						世树_前端联盟
 					</view>
 					<view class='left-p'>
 						<view class='title' style='opacity:0;'>我的小程序</view>
-						<view
-							style='color:#4C4C4E;width:27px;height:27px; margin-top: 5px; margin-bottom: 5px;border-radius:50%;background:#4C4C4E;'>
+						<view style='color:#4C4C4E;width:27px;height:27px; margin-top: 5px; margin-bottom: 5px;border-radius:50%;background:#4C4C4E;'>
 						</view>小程序
 					</view>
 				</view>
@@ -42,7 +41,7 @@
 		<view class='bottom' bindtap='closeThis'>记住了 我去试试</view>
 	</view>
 	<van-notify id="van-notify" top="{{180}}" />
-	<view >
+	<view>
 		<home popr="{{ hd_op}}" wx:if="{{id==1}}" />
 		<dictionaries wx:if="{{id==2}}" />
 		<study wx:if="{{id==3}}" list="{{list}}" bind:tab_xz="post" loding="{{  loding}}" />
@@ -56,15 +55,13 @@
 
 
 	<view class="cu-bar tabbar  bg-white">
-		<view bindtap="tab_tz" data-id="1" class="action jk  text-gray {{id==1?'xzcg ':''}}" hover-class="item-hover"
-			hover-stay-time="100">
+		<view bindtap="tab_tz" data-id="1" class="action jk  text-gray {{id==1?'xzcg ':''}}" hover-class="item-hover" hover-stay-time="100">
 			<view class="">
 				<span class="tab_icon iconfont icon-shouye shadow"></span>
 
 			</view> 首页
 		</view>
-		<view bindtap="tab_tz" data-id="2" class="action jk text-gray {{id==2?'xzcg':''}}" hover-class="item-hover"
-			hover-stay-time="100">
+		<view bindtap="tab_tz" data-id="2" class="action jk text-gray {{id==2?'xzcg':''}}" hover-class="item-hover" hover-stay-time="100">
 			<span class=" tab_icon iconfont  icon-ziliao "></span>
 			题库
 		</view>
@@ -73,13 +70,11 @@
 			</view>
 			学习
 		</view>
-		<view class="action text-gray jk {{id==4?'xzcg':''}}" bindtap="tab_tz" data-id="4" hover-class="item-hover"
-			hover-stay-time="100">
+		<view class="action text-gray jk {{id==4?'xzcg':''}}" bindtap="tab_tz" data-id="4" hover-class="item-hover" hover-stay-time="100">
 
 			<span class="tab_icon iconfont  icon-yunchucun"></span>
 			云库 </view>
-		<view class="action text-gray jk {{id==5?'xzcg':''}}" bindtap="tab_tz" data-id="5" hover-class="item-hover"
-			hover-stay-time="100">
+		<view class="action text-gray jk {{id==5?'xzcg':''}}" bindtap="tab_tz" data-id="5" hover-class="item-hover" hover-stay-time="100">
 			<view class="cuIcon-my">
 			</view>
 			我的
